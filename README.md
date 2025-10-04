@@ -131,7 +131,17 @@ Created 9 new features to capture clinical complexity:
 - Class weighting and SMOTE for imbalance handling
 
 ---
+## Results
 
+### Model Performance
+
+📊 Model Performance Comparison:
+────────────────────────────────────────────────────────────────────────────────
+              Model  Accuracy  Precision   Recall  F1-Score  AUC-ROC
+Logistic Regression  0.645426   0.166622 0.544254  0.255135 0.642392
+      Random Forest  0.884642   0.356877 0.042272  0.075591 0.633465
+
+      
 **Key Insights:**
 - Significantly improved precision (fewer false alarms)
 - Better overall accuracy and F1-score
